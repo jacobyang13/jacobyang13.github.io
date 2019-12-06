@@ -1,0 +1,265 @@
+/* All your custom styles go here. You can override the default Bootstrap styles or add your own custom styles for elements, classes, or IDs.  */
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  /* use the following only if you are able to scroll past the image to see a white area (this is the <body> peeking out) above or below the image */
+}
+.borderLine{
+  border: .8px solid black;
+}
+#reviewCard{
+  min-height: 30vh;
+  min-width: 50%;
+  background-color: white;
+  border-radius: 0;
+  
+  float:left;
+}
+#reviewS{
+  font-size: 18px;
+  color:black;
+  
+}
+#reviewAlt{
+  min-height: 30vh;
+  min-width: 50%;
+
+  background-color: white;
+  border-radius: 0;
+  float:left;
+}
+.galleryBody{
+  background-color:#cfccc4;
+}
+.signUp{
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+#gallery{
+  font-size: 60px;
+}
+h4{
+
+}
+#h8{
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  font-size: 50px;
+  text-align: center;;
+}
+#aboutC{
+  min-width: 100vw;
+  background-color:white;
+  border-radius: 0;
+  text-align: center;
+
+}
+
+#aboutC2{
+  margin-top: 50px;
+  min-width: 100vw;
+  border-radius: 0;
+  text-align: center;
+}
+h3{
+  font-weight: 100;
+  font-size: 60px;
+}
+.who{
+  float:left;
+  margin-top:10px;
+  margin-bottom: 30px;
+  padding-left: 50px;
+  font-weight: 100;
+  width: 50vw;
+  font-size: 18px;
+}
+.mission{
+  float:left;
+  margin-top:10px;
+  margin-bottom: 30px;
+  font-weight: 100;
+  padding-right:50px;
+  width:50vw;
+  font-size: 18px;
+}
+#aboutC img{
+  width: 100%;
+  /* height: 600px; */
+}
+.aboutPicture{
+  
+}
+#galleryTop{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid grey;
+text-align: center;
+}
+
+.carousel{
+  background-color:#cfccc4;
+  height: 100%;
+  margin: auto;
+}
+.carousel-item img{
+  margin: auto;
+  overflow: hidden;
+  max-width: 500px; 
+  max-height: 500px;
+}
+.contact{
+  background-color: #fdf9f3;;
+}
+iframe{
+  width: 100%;
+  height: 100vh;
+}
+.contactName{
+  font-family: Noteworthy;
+  font-weight: bold;
+}
+#contactCard{ 
+min-width: 50%;
+min-height: 20vh;
+border-radius: 0px;
+border: none;
+border-top: 1px solid grey;
+border-bottom: 1px solid grey;
+border-right: 1px solid gray;
+background: #fdf9f3}
+#homePage{
+  background-image: url('homePage.jpeg');
+  background-size: cover;
+  width: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+#title{
+  background-color:rgba(255,255,255,.7);
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+h1{
+/* margin-left: 20vw; */
+text-align: center;
+font-family: Noteworthy;
+font-weight: bold;
+
+
+}
+.fa-star{
+color: #ffd800;
+}
+#signUp{
+  border: 1px solid black;
+  border-radius: 10px;
+
+}
+#signUp2{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+h2{
+  text-align: center;
+font-family: Noteworthy;
+font-size: 18px;
+}
+.card-header {
+  font-size: 2.5em;
+}
+.nav-item{
+  padding-right: 6px;
+}
+.navbar {
+  background: #fdf9f3;
+  
+}
+#moveBottom{
+  margin-top: 40vh;
+}
+.moveRight{
+  margin-left: 13vw;
+}
+#review{
+  color:white;
+}
+#reviewCenter{
+  text-align: center;
+
+}
+.navbar-brand {
+  visibility: hidden;
+}
+
+.col-sm {
+  background: #e5e5e5;
+}
+
+.card {
+  min-height: 25vh;
+  min-width: 25vw;
+  max-width: 30vw;
+  background-color: rgba(0,0,0,.6);
+
+}
+.card-header, .card-footer{opacity:1};
+
+form {
+  margin-top: 75px;
+  display: inline-block;
+  width: 80%;
+}
+
+.btn {
+  background: #571a44;
+  border: none;
+}
+
+.btn:hover {
+  background: #cbb9c7;
+  color: black;
+}
+
+.footer-card {
+  background: #fdf9f3;
+}
+
+.footer-title {
+  background: #f5f1eb;
+  padding: 1em;
+  border-bottom: 1px solid #d6d3ce;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-brand {
+    visibility: hidden;
+  }
+  #signUp{
+
+    border: none;
+  
+  }
+  #formS{
+    margin-left:5vw;
+  }
+  .moveRight{
+    margin-left: 8vw;
+  }
+  .card {
+    min-height: 0;
+    max-width: 40vw;
+  }
+
+  form {
+    margin-top: 0;
+    width: 40%;
+  }
+}
